@@ -59,7 +59,6 @@ public class Automation_Testing_practice {
 		driver.findElement(By.xpath("//button[@type='submit']")).click();
 		
 		
-		//	driver.findElement(By.id("multipleFilesInput")).sendKeys("C:\\Users\\Harshada Mane\\Downloads\\Harshada Mane (3).pdf\n"+"C:\\Users\\Harshada Mane\\Downloads\\Harshada Mane (3).pdf");
 		
 		driver.findElement(By.id("multipleFilesInput")).sendKeys("C:\\Users\\Harshada Mane\\Downloads\\Harshada Mane (3).pdf");
 		
