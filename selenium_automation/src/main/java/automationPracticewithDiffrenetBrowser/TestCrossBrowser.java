@@ -21,7 +21,8 @@ public class TestCrossBrowser {
 
         } else if(browser.equalsIgnoreCase("firefox")) {
 
-            driver = new FirefoxDriver();  // firefox driver name is gekoDriver 
+            driver = new FirefoxDriver();  // firefox driver name is gekoDriver   
+            // session not match error means compatability is not match here 
         }
 
         driver.manage().window().maximize();

@@ -66,11 +66,15 @@ public class Automation_Testing_practice {
 		
 		
 		
-		driver.findElement(By.id("footer-2-2")).click();
-		
-		WebElement outerframe =  driver.findElement(By.xpath("//input[@type='text']']"));
-		
-		driver.switchTo().frame(outerframe);
+//		driver.findElement(By.id("footer-2-2")).click();
+//		
+//		WebElement outerframe =  driver.findElement(By.xpath("//input[@type='text']']"));
+//		
+//		driver.switchTo().frame(outerframe);
+//		
+//		
+//		driver.findElement(By.xpath("//input[type()='checkbox']")).click();
+//		driver.findElement(By.xpath("//table/tbody/tr")).click();
 		
 		
 	}

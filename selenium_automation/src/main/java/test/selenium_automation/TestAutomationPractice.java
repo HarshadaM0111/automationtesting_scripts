@@ -34,9 +34,8 @@ public class TestAutomationPractice {
 		
 		//sel1.selectByVisibleText("Android");
 		
-		
-		
-		
 	}
+	
+	
 
 }
